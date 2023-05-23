@@ -1,0 +1,16 @@
+{
+	"private": true,
+	"name": "websocket-chat-room-server",
+	"description": "A React chat room application, powered by WebSocket",
+	"version": "0.1.0",
+	"main": "lib/main.js",
+	"scripts": {
+		"start": "node ."
+	},
+	"dependencies": {
+		"bcryptjs": "^2.3.0",
+		"express-ws": "^5.0.2",
+		"mongoose": "6.7.5",
+		"ws": "^7.5.2"
+	}
+}
